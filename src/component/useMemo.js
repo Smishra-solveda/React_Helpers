@@ -44,7 +44,7 @@ const Memo = () => {
 
 const BigList = React.memo(({ products, addToCart }) => {
   // useEffect(() => {
-  //   console.count('hello from big list');
+    console.count('hello from big list');
   // });
 
   return (
@@ -68,7 +68,7 @@ const SingleProduct = ({ fields, addToCart }) => {
   const image = fields.image[0].url
 
   // useEffect(() => {
-  //   console.count('hello from product');
+    console.count('hello from product');
   // });
   return (
     <article className='product'>
